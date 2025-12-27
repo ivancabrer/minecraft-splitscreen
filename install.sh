@@ -315,7 +315,7 @@ ________EOF
     curlProgress 7ebf79bf258ff75d03cfa1074198ef1a \
                  'Launch script' \
                  minecraft.sh \
-                 https://raw.githubusercontent.com/ArnoldSmith86/minecraft-splitscreen/refs/heads/main/minecraft.sh
+                 https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/refs/heads/main/minecraft.sh
     chmod +x minecraft.sh
 
     # add the launch wrapper to Steam
@@ -324,7 +324,7 @@ ________EOF
         curlProgress 3426e204f94575d63e9ed40cb4603d02 \
                      'Shortcut creation script' \
                      add-to-steam.py \
-                     https://raw.githubusercontent.com/ArnoldSmith86/minecraft-splitscreen/refs/heads/main/add-to-steam.py
+                     https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/refs/heads/main/add-to-steam.py
         echo -n '⏳ Shutting down Steam in order to add the Minecraft shortcut'
         steam -shutdown
         while pgrep -F ~/.steam/steam.pid >/dev/null; do
