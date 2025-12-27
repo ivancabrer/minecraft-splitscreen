@@ -47,7 +47,7 @@ pushd $targetDir >/dev/null
         echo -n "📦 Extracting Java"
         if ! (tar xzf jdk-17.0.12_linux-x64_bin.tar.gz && rm jdk-17.0.12_linux-x64_bin.tar.gz); then
             echo -e "\r\033[K❌ Extracting Java failed"
-            rm -rf jdk-17.0.12_linux-x64_bin.tar.gz jdk-17.0.12
+            rm -rf jdk-17.0.12_linux-x64_bin.tar.gz jdk-17.0.12https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
             fail 'Extracting Java failed.'
         else
             echo -e "\r\033[K✅ Java extracted"
@@ -301,7 +301,7 @@ ________________EOF
                                 "userName": "P4"
                             },
                             "iat": 1745307609,
-                            "token": "0"
+                            "token": "0"https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
                         }
                     }
                 ],
@@ -315,7 +315,7 @@ ________EOF
     curlProgress 7ebf79bf258ff75d03cfa1074198ef1a \
                  'Launch script' \
                  minecraft.sh \
-                 https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
+                 https://github.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
     chmod +x minecraft.sh
 
     # add the launch wrapper to Steam
@@ -324,7 +324,7 @@ ________EOF
         curlProgress 3426e204f94575d63e9ed40cb4603d02 \
                      'Shortcut creation script' \
                      add-to-steam.py \
-                     https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/blob/main/add-to-steam.py
+                     https://github.com/ivancabrer/minecraft-splitscreen/blob/main/add-to-steam.py
         echo -n '⏳ Shutting down Steam in order to add the Minecraft shortcut'
         steam -shutdown
         while pgrep -F ~/.steam/steam.pid >/dev/null; do
