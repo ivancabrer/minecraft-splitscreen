@@ -301,7 +301,7 @@ ________________EOF
                                 "userName": "P4"
                             },
                             "iat": 1745307609,
-                            "token": "0"https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
+                            "token": "0"https://github.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
                         }
                     }
                 ],
