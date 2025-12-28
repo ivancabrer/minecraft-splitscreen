@@ -47,7 +47,7 @@ pushd $targetDir >/dev/null
         echo -n "📦 Extracting Java"
         if ! (tar xzf jdk-17.0.12_linux-x64_bin.tar.gz && rm jdk-17.0.12_linux-x64_bin.tar.gz); then
             echo -e "\r\033[K❌ Extracting Java failed"
-            rm -rf jdk-17.0.12_linux-x64_bin.tar.gz jdk-17.0.12https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
+            rm -rf jdk-17.0.12_linux-x64_bin.tar.gz jdk-17.0.12
             fail 'Extracting Java failed.'
         else
             echo -e "\r\033[K✅ Java extracted"
@@ -98,7 +98,7 @@ ________EOF
                     curlProgress 54a8852b383aa35ccbe773f00dafe944 \
                                  'Controllable Mod' \
                                  .minecraft/mods/controllable-forge-1.20.1-0.21.7-release.jar \
-                                 https://raw.githubusercontent.com/ArnoldSmith86/minecraft-splitscreen/refs/heads/main/controllable-forge-1.20.1-0.21.7-release.jar
+                                 https://github.com/ivancabrer/minecraft-splitscreen/blob/main/controllable-forge-1.20.1-0.21.7-release.jar
                 fi
             fi
 
@@ -178,7 +178,7 @@ ________________EOF
                                 "cachedRequires": [
                                     {
                                         "equals": "1.20.1",
-                                        "uid": "net.minecraft"/home/deck//home/deck/
+                                        "uid": "net.minecraft"
                                     }
                                 ],
                                 "cachedVersion": "47.4.0",
@@ -265,7 +265,7 @@ ________________EOF
                             "skin": {
                                 "id": "",
                                 "url": "",
-                                "variant": ""/home/deck/
+                                "variant": ""
                             }
                         },
                         "type": "Offline",
@@ -301,7 +301,7 @@ ________________EOF
                                 "userName": "P4"
                             },
                             "iat": 1745307609,
-                            "token": "0"https://github.com/ivancabrer/minecraft-splitscreen/blob/main/minecraft.sh
+                            "token": "0"
                         }
                     }
                 ],
