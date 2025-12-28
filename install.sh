@@ -98,7 +98,7 @@ ________EOF
                     curlProgress 54a8852b383aa35ccbe773f00dafe944 \
                                  'Controllable Mod' \
                                  .minecraft/mods/controllable-forge-1.20.1-0.21.7-release.jar \
-                                 https://raw.githubusercontent.com/ivancabrer/minecraft-splitscreen/refs/heads/main/controllable-forge-1.20.1-0.21.7-release.jar
+                                 https://raw.githubusercontent.com/ArnoldSmith86/minecraft-splitscreen/refs/heads/main/controllable-forge-1.20.1-0.21.7-release.jar
                 fi
             fi
 
